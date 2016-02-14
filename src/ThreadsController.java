@@ -5,7 +5,7 @@ public class ThreadsController extends Thread {
 	private ArrayList<ArrayList<DataOfSquare>> squares = new ArrayList<ArrayList<DataOfSquare>>();
 	private Tuple headSnakePos;
 	private int sizeSnake = 3;
-	private long speed = 50;
+	private long speed = 75;
 	public static int directionSnake;
 
 	ArrayList<Tuple> positions = new ArrayList<Tuple>();
